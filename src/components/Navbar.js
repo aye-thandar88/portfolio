@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = ({ handlePrint, data, headers }) => {
+const Navbar = () => {
   return (
     <header className="bg-gray-800 z-10 md:sticky top-0">
       <div className="container flex p-5 md:flex-row mx-auto items-center">
@@ -23,15 +23,12 @@ const Navbar = ({ handlePrint, data, headers }) => {
         </nav>
         <a
           href="AyeThandar-Resume.pdf"
-          download="Resume-PDF-document"
+          download="AyeThandar-Resume-PDF"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button
-            className="bg-slate-500 px-3 py-2 rounded-md mx-5 text-white"
-            // onClick={handlePrint}
-          >
-            download CV
+          <button className="bg-slate-500 px-3 py-2 rounded-md mx-5 text-white">
+            download Resume
           </button>
         </a>
       </div>
