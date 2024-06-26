@@ -10,7 +10,7 @@ const Navbar = () => {
         >
           Portfolio
         </a>
-        <nav className="flex flex-wrap justify-center text-base">
+        <nav className="flex flex-wrap justify-center text-base max-sm:hidden">
           <a href="#experiences" className="mr-5 ml-5 hover:text-white">
             Experiences
           </a>
