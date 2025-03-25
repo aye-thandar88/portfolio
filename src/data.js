@@ -1,6 +1,7 @@
 import empImg from "./assets/emp.png";
 import calculatorImg from "./assets/calculator.png";
 import travelImg from "./assets/travel.png";
+import todoImg from "./assets/todolist.png";
 
 export const skills = [
   "JavaScript",
@@ -8,10 +9,10 @@ export const skills = [
   "React",
   "Redux",
   "Next.js",
-  "C#",
   "MongoDB",
   "SQL",
   "Material UI",
+  "ShadCN UI",
   "Bootstrap",
   "Tailwind CSS",
   "Git",
@@ -29,6 +30,14 @@ export const expData = [
       " Created Employee Management CRUD app by using Nextjs SSR/CSR, Tailwind CSS and MongoDB",
   },
   {
+    href: "https://code-test-todo-list-fgnvb47y5-ayethandar88s-projects.vercel.app/",
+    imgName: "todolist",
+    imgPath: todoImg,
+    title: "Todo List",
+    context:
+      " Created Todo List app by using React.js, Typescript and Tailwind CSS",
+  },
+  {
     href: "https://6qnsqz.csb.app/",
     imgName: "calculator",
     imgPath: calculatorImg,
@@ -44,3 +53,4 @@ export const expData = [
       " Created Travel app by using Nextjs, Typescript and Tailwind CSS.",
   },
 ];
+

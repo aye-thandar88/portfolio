@@ -29,7 +29,7 @@ const About = () => {
         </div>
         <div className="md:w-1/2 lg:w-1/3 items-center flex justify-center p-5 border-2 rounded-full border-yellow-500">
           <img
-            className="w-full h-fit rounded-full"
+            className="w-full h-full rounded-full"
             alt="profile"
             src={require('../assets/myProfile.jpg')}
           />

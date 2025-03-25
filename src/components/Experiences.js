@@ -14,7 +14,7 @@ const Experiences = () => {
             industry.
           </p>
           <p className="mb-4">
-            As a Frond-end developer with above 2 years and as a functional
+            As a Frond-end developer with above 3 years and as a functional
             support with 2 years experienced in banking industry.
           </p>
           <p className="mb-4">
@@ -23,7 +23,7 @@ const Experiences = () => {
           </p>
           <p className="mb-4">I have passion with learning new technology.</p>
         </div>
-        <div className="grid grid-cols-2 max-md:grid-cols-1 py-5 justify-between gap-5">
+        <div className="grid grid-cols-2 max-lg:grid-cols-1 py-5 justify-between gap-5">
           {expData?.map((exp) => {
             return (
               <a

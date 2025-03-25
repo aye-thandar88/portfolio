@@ -22,8 +22,8 @@ const Navbar = () => {
           </a>
         </nav>
         <a
-          href="AyeThandar-Resume.pdf"
-          download="AyeThandar-Resume-PDF"
+          href="AyeThandar.pdf"
+          download="AyeThandar-PDF"
           target="_blank"
           rel="noopener noreferrer"
         >

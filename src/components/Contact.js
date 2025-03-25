@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { useForm } from "react-hook-form";
+import { set, useForm } from "react-hook-form";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { ContactSvg } from "../assets/contactSvg";
@@ -17,7 +17,6 @@ const Contact = () => {
   } = useForm();
 
   const onSubmit = (e) => {
-    alert("Message has been sent!");
     emailjs
       .sendForm(
         "service_gdsg1hb",
@@ -30,15 +29,16 @@ const Contact = () => {
           if (result?.status !== 200) {
             alert(result.error);
           }
-          setName("");
-          setEmail("");
-          setMessage("");
+          alert("Message has been sent!");
+          form.current.reset();
         },
         (error) => {
           console.log(error);
           alert(error);
         }
       );
+
+      
   };
 
   return (
